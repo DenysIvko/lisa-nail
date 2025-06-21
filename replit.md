@@ -77,7 +77,21 @@ The application is configured for deployment on Replit with the following setup:
 
 ## Changelog
 - June 21, 2025. Initial setup
+- June 21, 2025. Updated social media links and added 4-language support (Polish, Ukrainian, English, Russian)
+
+## Recent Changes
+✓ Added Facebook link integration throughout the website
+✓ Updated Booksy booking URL from /a to root domain
+✓ Added complete Russian language translations
+✓ Enhanced SEO with 4-language support including hreflang tags
+✓ Created custom SVG favicon based on fox logo
+✓ Updated sitemap.xml with Russian language routes
+✓ Added structured data with social media links
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Domain: lisanail.pl
+Target audience: Poland with multi-language support for Ukrainian and Russian speakers
+Social media: Instagram, Facebook, Booksy integration
+Fox logo branding with black/white color scheme

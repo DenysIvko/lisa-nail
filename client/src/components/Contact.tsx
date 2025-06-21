@@ -1,4 +1,4 @@
-import { MapPin, Phone, Instagram, Calendar } from 'lucide-react';
+import { MapPin, Phone, Instagram, Calendar, Facebook } from 'lucide-react';
 import { useTranslation } from '../hooks/useTranslation';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -73,12 +73,28 @@ export default function Contact() {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                    <Facebook className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg">Facebook</h4>
+                    <a 
+                      href="https://www.facebook.com/share/16RkNdJEXd/?mibextid=wwXIfr" 
+                      target="_blank"
+                      className="text-gray-600 hover:text-lisa-black transition-colors"
+                    >
+                      Lisa Nail
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
                     <Calendar className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">{t('contact.booking')}</h4>
                     <a 
-                      href="https://lisanailpl.booksy.com/a" 
+                      href="https://lisanailpl.booksy.com/" 
                       target="_blank"
                       className="text-gray-600 hover:text-lisa-black transition-colors"
                     >
@@ -98,7 +114,14 @@ export default function Contact() {
                     <Instagram className="w-5 h-5 text-white" />
                   </a>
                   <a 
-                    href="https://lisanailpl.booksy.com/a" 
+                    href="https://www.facebook.com/share/16RkNdJEXd/?mibextid=wwXIfr" 
+                    target="_blank"
+                    className="w-10 h-10 bg-lisa-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
+                  >
+                    <Facebook className="w-5 h-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://lisanailpl.booksy.com/" 
                     target="_blank"
                     className="w-10 h-10 bg-lisa-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
                   >
@@ -129,7 +152,7 @@ export default function Contact() {
                   asChild
                   className="w-full bg-lisa-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
                 >
-                  <a href="https://lisanailpl.booksy.com/a" target="_blank">
+                  <a href="https://lisanailpl.booksy.com/" target="_blank">
                     {t('contact.bookOnline')}
                   </a>
                 </Button>

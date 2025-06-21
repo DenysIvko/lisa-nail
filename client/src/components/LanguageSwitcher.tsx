@@ -9,12 +9,13 @@ export default function LanguageSwitcher() {
   const languages = [
     { code: 'pl', name: 'PL' },
     { code: 'uk', name: 'UA' },
-    { code: 'en', name: 'EN' }
+    { code: 'en', name: 'EN' },
+    { code: 'ru', name: 'RU' }
   ];
 
   const currentLang = languages.find(lang => lang.code === language);
 
-  const handleLanguageChange = (langCode: 'pl' | 'uk' | 'en') => {
+  const handleLanguageChange = (langCode: 'pl' | 'uk' | 'en' | 'ru') => {
     setLanguage(langCode);
     setIsOpen(false);
   };
@@ -34,7 +35,7 @@ export default function LanguageSwitcher() {
           {languages.map(lang => (
             <button
               key={lang.code}
-              onClick={() => handleLanguageChange(lang.code as 'pl' | 'uk' | 'en')}
+              onClick={() => handleLanguageChange(lang.code as 'pl' | 'uk' | 'en' | 'ru')}
               className={`block w-full text-left px-3 py-1 text-sm hover:bg-gray-50 transition-colors ${
                 language === lang.code ? 'bg-gray-100 font-medium' : ''
               }`}

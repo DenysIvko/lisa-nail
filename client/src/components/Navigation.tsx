@@ -57,7 +57,7 @@ export default function Navigation() {
               asChild
               className="bg-lisa-black text-white hover:bg-gray-800 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
-              <a href="https://lisanailpl.booksy.com/a" target="_blank">
+              <a href="https://lisanailpl.booksy.com/" target="_blank">
                 {t('nav.book')}
               </a>
             </Button>

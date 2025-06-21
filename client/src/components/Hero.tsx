@@ -29,7 +29,7 @@ export default function Hero() {
                 asChild
                 className="bg-lisa-black text-white px-8 py-4 rounded-lg font-medium hover:bg-gray-800 transition-colors"
               >
-                <a href="https://lisanailpl.booksy.com/a" target="_blank">
+                <a href="https://lisanailpl.booksy.com/" target="_blank">
                   {t('hero.cta1')}
                 </a>
               </Button>

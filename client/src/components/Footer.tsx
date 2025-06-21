@@ -43,7 +43,7 @@ export default function Footer() {
               <p>+48 790 336 362</p>
               <p>@lisa.nail.pl</p>
               <a 
-                href="https://lisanailpl.booksy.com/a" 
+                href="https://lisanailpl.booksy.com/" 
                 target="_blank"
                 className="text-white hover:text-gray-300 transition-colors"
               >

@@ -13,6 +13,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/uk" component={Home} />
       <Route path="/en" component={Home} />
+      <Route path="/ru" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );

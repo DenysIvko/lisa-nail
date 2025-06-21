@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-type Language = 'pl' | 'uk' | 'en';
+type Language = 'pl' | 'uk' | 'en' | 'ru';
 
 interface LanguageContextType {
   language: Language;
@@ -14,7 +14,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('lisa-nail-language') as Language;
-    if (savedLanguage && ['pl', 'uk', 'en'].includes(savedLanguage)) {
+    if (savedLanguage && ['pl', 'uk', 'en', 'ru'].includes(savedLanguage)) {
       setLanguage(savedLanguage);
     }
   }, []);

@@ -11,7 +11,8 @@ export function generateSitemap(): string {
       hreflang: [
         { hreflang: 'pl', href: baseUrl },
         { hreflang: 'uk', href: `${baseUrl}/uk` },
-        { hreflang: 'en', href: `${baseUrl}/en` }
+        { hreflang: 'en', href: `${baseUrl}/en` },
+        { hreflang: 'ru', href: `${baseUrl}/ru` }
       ]
     },
     {
@@ -22,7 +23,8 @@ export function generateSitemap(): string {
       hreflang: [
         { hreflang: 'pl', href: baseUrl },
         { hreflang: 'uk', href: `${baseUrl}/uk` },
-        { hreflang: 'en', href: `${baseUrl}/en` }
+        { hreflang: 'en', href: `${baseUrl}/en` },
+        { hreflang: 'ru', href: `${baseUrl}/ru` }
       ]
     },
     {
@@ -33,7 +35,20 @@ export function generateSitemap(): string {
       hreflang: [
         { hreflang: 'pl', href: baseUrl },
         { hreflang: 'uk', href: `${baseUrl}/uk` },
-        { hreflang: 'en', href: `${baseUrl}/en` }
+        { hreflang: 'en', href: `${baseUrl}/en` },
+        { hreflang: 'ru', href: `${baseUrl}/ru` }
+      ]
+    },
+    {
+      loc: `${baseUrl}/ru`,
+      lastmod: currentDate,
+      changefreq: 'weekly',
+      priority: '0.9',
+      hreflang: [
+        { hreflang: 'pl', href: baseUrl },
+        { hreflang: 'uk', href: `${baseUrl}/uk` },
+        { hreflang: 'en', href: `${baseUrl}/en` },
+        { hreflang: 'ru', href: `${baseUrl}/ru` }
       ]
     }
   ];
