@@ -13,12 +13,12 @@
   --card-foreground: hsl(0, 0%, 0%);
   --border: hsl(20, 5.9%, 90%);
   --input: hsl(20, 5.9%, 90%);
-  --primary: hsl(0, 0%, 0%);
+  --primary: hsl(239, 95%, 50%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(0, 0%, 97.3%);
   --secondary-foreground: hsl(0, 0%, 0%);
-  --accent: hsl(0, 0%, 97.3%);
-  --accent-foreground: hsl(0, 0%, 0%);
+  --accent: hsl(239, 95%, 50%);
+  --accent-foreground: hsl(0, 0%, 100%);
   --destructive: hsl(0, 84.2%, 60.2%);
   --destructive-foreground: hsl(60, 9.1%, 97.8%);
   --ring: hsl(0, 0%, 0%);
@@ -26,7 +26,8 @@
 
   /* Lisa Nail custom colors */
   --lisa-black: hsl(0, 0%, 0%);
-  --lisa-gray: hsl(0, 0%, 97.3%);
+  --lisa-white: hsl(0, 0%, 100%);
+  --lisa-blue: hsl(239, 95%, 50%);
 }
 
 .dark {
@@ -68,12 +69,20 @@
     background-color: var(--lisa-black);
   }
 
-  .lisa-gray {
-    color: var(--lisa-gray);
+  .lisa-white {
+    color: var(--lisa-white);
   }
 
-  .bg-lisa-gray {
-    background-color: var(--lisa-gray);
+  .bg-lisa-white {
+    background-color: var(--lisa-white);
+  }
+
+  .lisa-blue {
+    color: var(--lisa-blue);
+  }
+
+  .bg-lisa-blue {
+    background-color: var(--lisa-blue);
   }
 }
 

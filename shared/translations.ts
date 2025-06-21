@@ -24,7 +24,31 @@ export const translations = {
       bookOnline: "Umów wizytę online",
       time: "Czas",
       saveUp: "Zaoszczędź do 10%",
-      extras: "Dodatki"
+      extras: "Dodatki",
+      manicureServices: {
+        gelFill: "Uzupełnienie żelu",
+        hybridManicure: "Manicure hybrydowy",
+        gelCreation: "Utworzenie żelem",
+        nailReconstruction: "Rekonstrukcja paznokci żelem",
+        manicureNoPaint: "Manicure bez malowania",
+        mensManicure: "Męski manicure"
+      },
+      browsServices: {
+        browLaminationFull: "Laminacja brwi + farbka + regulacja + botox",
+        browTint: "Farbka brwi",
+        browTintShape: "Farbka + regulacja brwi woskiem/pęsetą",
+        browBotox: "Botoks brwi",
+        browShaping: "Regulacja brwi woskiem/pęsetą",
+        lipWaxing: "Usunięcie wąsika woskiem"
+      },
+      lashServices: {
+        lashExtension1to1: "Przedłużanie rzęs 1:1",
+        lashExtension2D: "Przedłużanie rzęs 2D",
+        lashExtension3D: "Przedłużanie rzęs 3D",
+        lashExtension4D: "Przedłużanie rzęs 4D",
+        lashExtension5D: "Przedłużanie rzęs 5D",
+        lashRemoval: "Zdjęcie rzęs"
+      }
     },
     about: {
       title: "O Lisa Nail",
@@ -44,7 +68,8 @@ export const translations = {
       subtitle: "Skontaktuj się z nami, aby umówić wizytę lub zadać pytanie. Jesteśmy tutaj, aby pomóc!",
       info: "Informacje kontaktowe",
       location: "Lokalizacja",
-      locationValue: "Warszawa, Polska",
+      locationValue: "Łukowska 7B, 04-133 Warszawa",
+      viewOnMaps: "Zobacz na mapie",
       phone: "Telefon",
       instagram: "Instagram",
       booking: "Rezerwacja online",
@@ -96,7 +121,31 @@ export const translations = {
       bookOnline: "Записатися онлайн",
       time: "Час",
       saveUp: "Заощадьте до 10%",
-      extras: "Додатки"
+      extras: "Додатки",
+      manicureServices: {
+        gelFill: "Доповнення гелю",
+        hybridManicure: "Гібридний манікюр",
+        gelCreation: "Створення гелем",
+        nailReconstruction: "Реконструкція нігтів гелем",
+        manicureNoPaint: "Манікюр без фарбування",
+        mensManicure: "Чоловічий манікюр"
+      },
+      browsServices: {
+        browLaminationFull: "Ламінування брів + фарба + корекція + ботокс",
+        browTint: "Фарба для брів",
+        browTintShape: "Фарба + корекція брів воском/пінцетом",
+        browBotox: "Ботокс брів",
+        browShaping: "Корекція брів воском/пінцетом",
+        lipWaxing: "Видалення вусиків воском"
+      },
+      lashServices: {
+        lashExtension1to1: "Нарощування вій 1:1",
+        lashExtension2D: "Нарощування вій 2D",
+        lashExtension3D: "Нарощування вій 3D",
+        lashExtension4D: "Нарощування вій 4D",
+        lashExtension5D: "Нарощування вій 5D",
+        lashRemoval: "Зняття вій"
+      }
     },
     about: {
       title: "Про Lisa Nail", 
@@ -116,7 +165,8 @@ export const translations = {
       subtitle: "Зв'яжіться з нами, щоб записатися на візит або поставити питання. Ми тут, щоб допомогти!",
       info: "Контактна інформація",
       location: "Місцезнаходження", 
-      locationValue: "Варшава, Польща",
+      locationValue: "Łukowska 7B, 04-133 Варшава",
+      viewOnMaps: "Переглянути на карті",
       phone: "Телефон",
       instagram: "Instagram", 
       booking: "Онлайн бронювання",
@@ -168,7 +218,31 @@ export const translations = {
       bookOnline: "Book appointment online",
       time: "Time",
       saveUp: "Save up to 10%",
-      extras: "Extras"
+      extras: "Extras",
+      manicureServices: {
+        gelFill: "Gel Fill",
+        hybridManicure: "Hybrid Manicure",
+        gelCreation: "Gel Creation",
+        nailReconstruction: "Nail Reconstruction with Gel",
+        manicureNoPaint: "Manicure without Polish",
+        mensManicure: "Men's Manicure"
+      },
+      browsServices: {
+        browLaminationFull: "Brow Lamination + Tint + Shaping + Botox",
+        browTint: "Brow Tint",
+        browTintShape: "Brow Tint + Shaping with Wax/Tweezers",
+        browBotox: "Brow Botox",
+        browShaping: "Brow Shaping with Wax/Tweezers",
+        lipWaxing: "Upper Lip Waxing"
+      },
+      lashServices: {
+        lashExtension1to1: "Eyelash Extensions 1:1",
+        lashExtension2D: "Eyelash Extensions 2D",
+        lashExtension3D: "Eyelash Extensions 3D",
+        lashExtension4D: "Eyelash Extensions 4D",
+        lashExtension5D: "Eyelash Extensions 5D",
+        lashRemoval: "Eyelash Removal"
+      }
     },
     about: {
       title: "About Lisa Nail",
@@ -188,7 +262,8 @@ export const translations = {
       subtitle: "Contact us to book an appointment or ask a question. We're here to help!",
       info: "Contact Information",
       location: "Location",
-      locationValue: "Warsaw, Poland",
+      locationValue: "Łukowska 7B, 04-133 Warsaw",
+      viewOnMaps: "View on Maps",
       phone: "Phone", 
       instagram: "Instagram",
       booking: "Online Booking",
@@ -240,7 +315,31 @@ export const translations = {
       bookOnline: "Записаться онлайн",
       time: "Время",
       saveUp: "Сэкономьте до 10%",
-      extras: "Дополнительно"
+      extras: "Дополнительно",
+      manicureServices: {
+        gelFill: "Дополнение гелем",
+        hybridManicure: "Гибридный маникюр",
+        gelCreation: "Создание гелем",
+        nailReconstruction: "Реконструкция ногтей гелем",
+        manicureNoPaint: "Маникюр без покраски",
+        mensManicure: "Мужской маникюр"
+      },
+      browsServices: {
+        browLaminationFull: "Ламинирование бровей + краска + коррекция + ботокс",
+        browTint: "Краска для бровей",
+        browTintShape: "Краска + коррекция бровей воском/пинцетом",
+        browBotox: "Ботокс бровей",
+        browShaping: "Коррекция бровей воском/пинцетом",
+        lipWaxing: "Удаление усиков воском"
+      },
+      lashServices: {
+        lashExtension1to1: "Наращивание ресниц 1:1",
+        lashExtension2D: "Наращивание ресниц 2D",
+        lashExtension3D: "Наращивание ресниц 3D",
+        lashExtension4D: "Наращивание ресниц 4D",
+        lashExtension5D: "Наращивание ресниц 5D",
+        lashRemoval: "Снятие ресниц"
+      }
     },
     about: {
       title: "О Lisa Nail",
@@ -260,7 +359,8 @@ export const translations = {
       subtitle: "Свяжитесь с нами, чтобы записаться на визит или задать вопрос. Мы здесь, чтобы помочь!",
       info: "Контактная информация",
       location: "Местоположение",
-      locationValue: "Варшава, Польша",
+      locationValue: "Łukowska 7B, 04-133 Варшава",
+      viewOnMaps: "Посмотреть на карте",
       phone: "Телефон",
       instagram: "Instagram",
       booking: "Онлайн бронирование",

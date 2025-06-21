@@ -6,30 +6,30 @@ export default function Services() {
   const { t } = useTranslation();
 
   const manicureServices = [
-    { name: "Uzupełnienie żelu", price: "180,00 zł", time: "2h", note: t('services.extras') },
-    { name: "Manicure hybrydowy", price: "150,00 zł", time: "1h 40m", note: t('services.saveUp') },
-    { name: "Utworzenie żelem", price: "180,00 zł", time: "2h", note: t('services.extras') },
-    { name: "Rekonstrukcja paznokci żelem", price: "200,00 zł", time: "2h 30m", note: t('services.extras') },
-    { name: "Manicure bez malowania", price: "90,00 zł", time: "30m", note: t('services.extras') },
-    { name: "Męski manicure", price: "89,00 zł", time: "40m", note: t('services.extras') }
+    { name: t('services.manicureServices.gelFill'), price: "180,00 zł", time: "2h", note: t('services.extras') },
+    { name: t('services.manicureServices.hybridManicure'), price: "150,00 zł", time: "1h 40m", note: t('services.saveUp') },
+    { name: t('services.manicureServices.gelCreation'), price: "180,00 zł", time: "2h", note: t('services.extras') },
+    { name: t('services.manicureServices.nailReconstruction'), price: "200,00 zł", time: "2h 30m", note: t('services.extras') },
+    { name: t('services.manicureServices.manicureNoPaint'), price: "90,00 zł", time: "30m", note: t('services.extras') },
+    { name: t('services.manicureServices.mensManicure'), price: "89,00 zł", time: "40m", note: t('services.extras') }
   ];
 
   const browsLashesServices = [
-    { name: "Laminacja brwi + farbka + regulacja + botox", price: "189,00 zł", time: "1h 20m", note: t('services.saveUp') },
-    { name: "Farbka brwi", price: "80,00 zł", time: "25m", note: t('services.saveUp') },
-    { name: "Farbka + regulacja brwi woskiem/pęsetą", price: "120,00 zł", time: "1h", note: t('services.saveUp') },
-    { name: "Botoks brwi", price: "30,00 zł", time: "15m", note: t('services.saveUp') },
-    { name: "Regulacja brwi woskiem/pęsetą", price: "60,00 zł", time: "30m", note: t('services.saveUp') },
-    { name: "Usunięcie wąsika woskiem", price: "50,00 zł", time: "15m", note: t('services.saveUp') }
+    { name: t('services.browsServices.browLaminationFull'), price: "189,00 zł", time: "1h 20m", note: t('services.saveUp') },
+    { name: t('services.browsServices.browTint'), price: "80,00 zł", time: "25m", note: t('services.saveUp') },
+    { name: t('services.browsServices.browTintShape'), price: "120,00 zł", time: "1h", note: t('services.saveUp') },
+    { name: t('services.browsServices.browBotox'), price: "30,00 zł", time: "15m", note: t('services.saveUp') },
+    { name: t('services.browsServices.browShaping'), price: "60,00 zł", time: "30m", note: t('services.saveUp') },
+    { name: t('services.browsServices.lipWaxing'), price: "50,00 zł", time: "15m", note: t('services.saveUp') }
   ];
 
   const lashExtensionsServices = [
-    { name: "Przedłużanie rzęs 1:1", price: "160,00 zł", time: "2h 20m", note: t('services.saveUp') },
-    { name: "Przedłużanie rzęs 2D", price: "170,00 zł", time: "2h 40m", note: t('services.saveUp') },
-    { name: "Przedłużanie rzęs 3D", price: "190,00 zł", time: "3h", note: t('services.saveUp') },
-    { name: "Przedłużanie rzęs 4D", price: "200,00 zł", time: "3h 10m", note: t('services.saveUp') },
-    { name: "Przedłużanie rzęs 5D", price: "255,00 zł", time: "3h 30m", note: t('services.saveUp') },
-    { name: "Zdjęcie rzęs", price: "30,00 zł", time: "20m", note: "" }
+    { name: t('services.lashServices.lashExtension1to1'), price: "160,00 zł", time: "2h 20m", note: t('services.saveUp') },
+    { name: t('services.lashServices.lashExtension2D'), price: "170,00 zł", time: "2h 40m", note: t('services.saveUp') },
+    { name: t('services.lashServices.lashExtension3D'), price: "190,00 zł", time: "3h", note: t('services.saveUp') },
+    { name: t('services.lashServices.lashExtension4D'), price: "200,00 zł", time: "3h 10m", note: t('services.saveUp') },
+    { name: t('services.lashServices.lashExtension5D'), price: "255,00 zł", time: "3h 30m", note: t('services.saveUp') },
+    { name: t('services.lashServices.lashRemoval'), price: "30,00 zł", time: "20m", note: "" }
   ];
 
   const ServiceSection = ({ 
@@ -43,7 +43,7 @@ export default function Services() {
   }) => (
     <div className="mb-20">
       <div className="flex items-center mb-8">
-        <div className="w-8 h-8 bg-lisa-black rounded-full flex items-center justify-center mr-4">
+        <div className="w-8 h-8 bg-lisa-blue rounded-full flex items-center justify-center mr-4">
           <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
             <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
             <path fillRule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 001 1h6a1 1 0 001-1V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm8 5a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path>

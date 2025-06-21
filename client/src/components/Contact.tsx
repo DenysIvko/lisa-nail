@@ -31,17 +31,25 @@ export default function Contact() {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-lisa-blue rounded-full flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">{t('contact.location')}</h4>
-                    <p className="text-gray-600">{t('contact.locationValue')}</p>
+                    <p className="text-gray-600 mb-2">{t('contact.locationValue')}</p>
+                    <a 
+                      href="https://maps.app.goo.gl/iXkD9Ezek1bLaUjM7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lisa-blue hover:text-blue-700 transition-colors text-sm font-medium"
+                    >
+                      {t('contact.viewOnMaps')}
+                    </a>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-lisa-blue rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -56,7 +64,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-lisa-blue rounded-full flex items-center justify-center">
                     <Instagram className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -72,7 +80,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-lisa-blue rounded-full flex items-center justify-center">
                     <Facebook className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -88,7 +96,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-lisa-black rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-lisa-blue rounded-full flex items-center justify-center">
                     <Calendar className="w-6 h-6 text-white" />
                   </div>
                   <div>
